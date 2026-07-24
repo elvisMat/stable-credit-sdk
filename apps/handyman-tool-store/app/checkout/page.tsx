@@ -246,8 +246,8 @@ export default function CheckoutPage() {
                 ? "Pay with StableCredit"
                 : "Place Order"}
             </Button>
-            <StableCreditButton amount={total} currency="USDC" >
-              Pay with StableCredit
+            <StableCreditButton className="w-full py-5 bg-primary text-primary-foreground hover:bg-primary/90" amount={total} currency="USDC" >
+             Pay with StableCredit
             </StableCreditButton>
           </div>
 

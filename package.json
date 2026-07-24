@@ -1,0 +1,15 @@
+{
+  "name": "stable-credit-sdk",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev": "concurrently \"npm run watch --workspace stable-credit-react\" \"npm run dev --workspace handyman-tool-store\""
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.4"
+  }
+}

@@ -8,7 +8,8 @@ import type { StableCreditButtonProps } from "./types";
 function StableCreditButton({ children, ...props }: StableCreditButtonProps) {
   return (
     <button id="stable-credit-button" {...props}>
-      {children || "Stable Credit Button"}
+      {children || "Stable Credit Button"} 
+      
     </button>
   );
 }
